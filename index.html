@@ -27,13 +27,13 @@
     <main>
         <div id="main">
             <section class="shows">
-                <button class="link-sessao abrirShow" href="#" onclick="exibeShows()">Shows</button>
+                <a class="link-sessao abrirShow" href="#" onclick=" exibeShows()">Shows</a>
             </section>
             <section class="cinema">
-                <a class="link-sessao abrirCinema" href="">Cinema</a>
+                <a class="link-sessao abrirCinema" href="#" onclick="exibeCinema()">Cinema</a>
             </section>
             <section class="teatro">
-                <a class="link-sessao abrirTeatro" href="">Teatro</a>
+                <a class="link-sessao abrirTeatro" href="#" onclick="exibeTeatro()"">Teatro</a>
             </section>
         </div>
 
@@ -41,7 +41,7 @@
         <div id="mainAberta">
             <section class="showsAberto">
                 <header class="showsAberto-header">
-                    <button>Back</button>
+                    <button onclick="voltar()">Back</button>
                     <h1>Shows</h1>
                 </header>
 
@@ -118,7 +118,7 @@
 
             <section class="cinemaAberto">
                 <header class="cinemaAberto-header">
-                    <button>Back</button>
+                    <button onclick="voltar()">Back</button>
                     <h1>Cinema</h1>
                 </header>
 
@@ -159,7 +159,7 @@
             </section>
             <section class="teatroAberto">
                 <header class="teatroAberto-header">
-                    <button>Back</button>
+                    <button onclick="voltar()">Back</button>
                     <h1>Teatro</h1>
                 </header>
                 <section class="primeira-linha">
@@ -196,8 +196,8 @@
                 </section>
             </section>
         </div>
-
     </main>
 </body>
+<script src="script.js"></script>
 
 </html>
