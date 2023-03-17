@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <header class="header container-fluid">
-        <figure>
+    <header class="header">
+        <figure style="border: 1px solid red;">
             <img src="" alt="Logo">
         </figure>
         <nav>
@@ -25,15 +25,178 @@
         </nav>
     </header>
     <main>
-        <section class="shows">
-            <a class="link-sessao" href="">Shows</a> 
-        </section>
-        <section class="cinema">
-            <a class="link-sessao" href="">Cinema</a>
-        </section>
-        <section class="teatro">
-            <a class="link-sessao" href="">Teatro</a>
-        </section>
+        <div id="main">
+            <section class="shows">
+                <a class="link-sessao" href="">Shows</a>
+            </section>
+            <section class="cinema">
+                <a class="link-sessao" href="">Cinema</a>
+            </section>
+            <section class="teatro">
+                <a class="link-sessao" href="">Teatro</a>
+            </section>
+        </div>
+
+        <!--Caso precise desse id -->
+        <div id="mainAberta">
+            <section class="showsAberto">
+                <header class="showsAberto-header">
+                    <button>Back</button>
+                    <h1>Shows</h1>
+                </header>
+
+                <section class="primeira-linha">
+                    <article class="card-artista">
+                        <div class="card-artista-img">
+                            <img src="./Imgs/ret_1.jpg" alt="Billie Eilish">
+                        </div>
+                        <div class="card-artista-nome billie">
+                            <h2>
+                                Billie Eilish
+                            </h2>
+                        </div>
+                    </article>
+
+                    <article class="card-artista">
+                        <div class="card-artista-img beyoce">
+                            <img src="./Imgs/ret_2.jpg" alt="Billie Eilish">
+                        </div>
+                        <div class="card-artista-nome beyonce">
+                            <h2>
+                                Beyoncé
+                            </h2>
+                        </div>
+                    </article>
+
+                    <article class="card-artista">
+                        <div class="card-artista-img">
+                            <img src="./Imgs/ret_3.jpg" alt="Billie Eilish">
+                        </div>
+                        <div class="card-artista-nome rosalia">
+                            <h2>
+                                Rosalía
+                            </h2>
+                        </div>
+                    </article>
+                </section>
+                <section class="segunda-linha">
+                    <article class="card-artista">
+                        <div class="card-artista-img">
+                            <img src="./Imgs/ret_4.jpg" alt="Billie Eilish">
+                        </div>
+                        <div class="card-artista-nome rbd">
+                            <h2>
+                                R B D
+                            </h2>
+                        </div>
+                    </article>
+
+                    <article class="card-artista">
+                        <div class="card-artista-img beyoce">
+                            <img src="./Imgs/ret_5.jpg" alt="Billie Eilish">
+                        </div>
+                        <div class="card-artista-nome coldplay">
+                            <h2>
+                                Coldplay
+                            </h2>
+                        </div>
+                    </article>
+
+                    <article class="card-artista">
+                        <div class="card-artista-img">
+                            <img src="./Imgs/ret_6.jpg" alt="Billie Eilish">
+                        </div>
+                        <div class="card-artista-nome taylor">
+                            <h2>
+                                Taylor Swift
+                            </h2>
+                        </div>
+                    </article>
+                </section>
+            </section>
+
+
+            <section class="cinemaAberto">
+                <header class="cinemaAberto-header">
+                    <button>Back</button>
+                    <h1>Cinema</h1>
+                </header>
+
+                <section class="primeira-linha">
+                    <article class="card-cinema">
+                        <div class="card-cinema-img">
+                            <img src="./Imgs/filmes/ret_1.jpg" alt="Avatar 2">
+                        </div>
+                        <div class="card-cinema-nome">
+                            <h2>
+                                Avatar 2
+                            </h2>
+                        </div>
+                    </article>
+
+                    <article class="card-cinema">
+                        <div class="card-cinema-img">
+                            <img src="./Imgs/filmes/ret_2.jpg" alt="Avatar 2">
+                        </div>
+                        <div class="card-cinema-nome">
+                            <h2>
+                                Sing 2
+                            </h2>
+                        </div>
+                    </article>
+
+                    <article class="card-cinema">
+                        <div class="card-cinema-img">
+                            <img src="./Imgs/filmes/ret_3.jpg" alt="Avatar 2">
+                        </div>
+                        <div class="card-cinema-nome">
+                            <h2>
+                                Megan
+                            </h2>
+                        </div>
+                    </article>
+                </section>
+            </section>
+            <section class="teatroAberto">
+                <header class="teatroAberto-header">
+                    <button>Back</button>
+                    <h1>Cinema</h1>
+                </header>
+                <section class="primeira-linha">
+                    <article class="card-teatro">
+                        <div class="card-teatro-img">
+                            <img src="./Imgs/teatro/ret_1.jpg" alt="Avatar 2">
+                        </div>
+                        <div class="card-teatro-nome">
+                            <h2>
+                               O Mágico de Oz
+                            </h2>
+                        </div>
+                    </article>
+                    <article class="card-teatro">
+                        <div class="card-teatro-img">
+                            <img src="./Imgs/teatro/ret_2.jpg" alt="Avatar 2">
+                        </div>
+                        <div class="card-teatro-nome">
+                            <h2>
+                                A família Adams
+                            </h2>
+                        </div>
+                    </article>
+                    <article class="card-teatro">
+                        <div class="card-teatro-img">
+                            <img src="./Imgs/teatro/ret_3.jpg" alt="Avatar 2">
+                        </div>
+                        <div class="card-teatro-nome">
+                            <h2>
+                                O rei leão
+                            </h2>
+                        </div>
+                    </article>
+                </section>
+            </section>
+        </div>
+
     </main>
 </body>
 
