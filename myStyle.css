@@ -12,13 +12,25 @@
     grid-column: 1fr 1fr 1fr;
     grid-template-areas: 'logo nav nav';
     background-color: rgb(82, 82, 82);
-    height: 100px;
     position: fixed;
+    max-height: 100px;
     width: 100%;
 }
-figure{
+.logo-area{
     grid-area: logo;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-area figure img {
+    width: 150px;
+}
+.logo-area a{
+    font-family: 'Italianno', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
 }
 nav{
     grid-area: nav;
@@ -47,6 +59,7 @@ nav{
     grid-template-areas: 'shows cinema teatro';
     height: 100vh;
     font-family: 'Italiana', cursive;
+    display: none;
 }
 .link-sessao{
     text-decoration: none;
@@ -70,7 +83,7 @@ nav{
     background: var(--fundo-shows);
 }
 .showsAberto{
-    display: none;
+    
     width: 100%;
     height: 100vh;
     background: rgb(75, 60, 115, 0.8);
@@ -223,7 +236,53 @@ nav{
     text-align: center;
     margin-top: 10px;
 }
-
+/* Modal */
+.modal-img{
+    width: 350px;
+}
+.modal-img img{
+    width: 100%;
+}
+.modal-close {
+    width: 30px;
+    height: 30px;
+    border:none;
+    background-color: #1B1232;
+    color: white;
+    font-size: 1.5rem;
+    position: relative;
+    right: -40px;
+    top: 10px;
+    border-radius: 5px;
+}
+.modal-close:hover{
+    background-color: white;
+    color: #1B1232;
+    border: solid 2px #1B1232;
+}
+.input-login, .input-singup{
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(30, 26, 38, .95);
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Italiana';
+}
+.input-login:hover, .input-singup:hover{
+    background-color: white;
+    color: rgb(30, 26, 38, .95);
+    font-weight: bold;
+    border: 2px solid rgb(30, 26, 38, .95);
+}
+.input-login{
+    margin-bottom: 20px;
+}
+.modal-body h2{
+    font-size: 1.5rem;
+    font-family: 'Italiana';
+    color: black;
+}
 /* Animações */
 @keyframes transicao {
     from {
