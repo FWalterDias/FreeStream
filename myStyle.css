@@ -15,6 +15,7 @@
     position: fixed;
     max-height: 100px;
     width: 100%;
+    align-items: center;
 }
 .logo-area{
     grid-area: logo;
