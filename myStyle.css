@@ -9,7 +9,7 @@
 /* Header e navegação */
 .header{
     display: grid;
-    grid-column: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 'logo nav nav';
     background-color: rgb(82, 82, 82);
     position: fixed;
