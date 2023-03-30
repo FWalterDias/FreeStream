@@ -6,9 +6,6 @@
     box-sizing: border-box;
     font-family: 'Italianno', cursive;
 }
-section{
-    padding: 0;
-}
 /* Header e navegação */
 .header{
     display: grid;
