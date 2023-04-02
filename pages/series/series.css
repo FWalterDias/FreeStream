@@ -1,0 +1,38 @@
+.container-series {
+  display: grid;
+  grid-template-areas:
+    "title title title"
+    "card4 card5 card6";
+  height: 100%;
+  align-content: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 0 10%;
+  text-align: center;
+  background-color: var(--bg-series);
+}
+.card-series {
+  width: 25rem;
+  background-color: black;
+  animation: cards 1s ease-in;
+}
+.card-series img {
+  height: 500px;
+}
+.card-body {
+  font-family: var(--josefin);
+  padding: 1rem;
+}
+.card-body h5 {
+  font-size: 2rem;
+  color: white;
+}
+.bg-wandinha {
+  background: url(../../Assets/Imgs/series/ret_4.jpg) no-repeat center / cover;
+}
+.bg-queensG {
+  background: url(../../Assets/Imgs/series/ret_2.jpg) no-repeat center / cover;
+}
+.bg-arcane {
+  background: url(../../Assets/Imgs/series/ret_3.jpg) no-repeat center / cover;
+}

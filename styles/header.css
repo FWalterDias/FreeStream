@@ -23,7 +23,9 @@ header {
     justify-content: center;
   }
   .logo-area figure img {
-    width: 120px;
+    margin-left: -5px;
+    width: 70px;
+    transform: rotate(15deg);
   }
   .logo-area a {
     text-decoration: none;

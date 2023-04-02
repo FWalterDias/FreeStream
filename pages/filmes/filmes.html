@@ -13,14 +13,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../../styles/home.css" />
-    <link rel="stylesheet" href="./series.css" />
+    <link rel="stylesheet" href="./filmes.css" />
   </head>
 
   <body>
     <div class="container-global">
       <header class="container-fluid header">
         <div class="logo-area">
-          <a href="../main/main.html" onclick="voltar()">MyTicket.com</a>
+          <a href="#" onclick="voltar()">FreeStreaming.com</a>
           <figure>
             <img src="../../Assets/Imgs/logo.png" alt="" />
           </figure>
@@ -28,33 +28,40 @@
 
         <nav>
           <ul class="nav-items">
-            <li><a class="link-nav-items" href="">Login</a></li>
-            <li><a class="link-nav-items" href="">Sing up</a></li>
-            <li><a class="link-nav-items" href="">Fale Conosco</a></li>
+            <li><a class="link-nav-items" href="" data-toggle="modal" data-target="#modalLogin">Login</a></li>
+            <li><a class="link-nav-items" href="" data-toggle="modal" data-target="#modalSingUp">Sing up</a></li>
+            <li><a class="link-nav-items" href="" data-toggle="modal" data-target="#modalFaleConosco">Fale Conosco</a></li>
           </ul>
         </nav>
       </header>
 
       <main>
-        <div class="container-fluid container-series">
-          <article class="card card-series">
-            <img class="card-img-top wandinha" />
+        <div class="container-fluid container-cinema">
+          <div class="container-title">
+            <a href="../../pages/main/main.html">
+              <button>Back</button>
+            </a>
+            <h1>Filmes</h1>
+          </div>
+
+          <article class="card card-filme">
+            <img class="card-img-top avatar" />
             <div class="card-body">
-              <h5>WANDINHA</h5>
+              <h5>AVATAR 2</h5>
             </div>
           </article>
 
-          <article class="card card-series">
-            <img class="card-img-top queensG" />
+          <article class="card card-filme">
+            <img class="card-img-top sing2" />
             <div class="card-body">
-              <h5>THE QUEEN'S GAMBIT</h5>
+              <h5>SING 2</h5>
             </div>
           </article>
 
-          <article class="card card-series">
-            <img class="card-img-top arcane" />
+          <article class="card card-filme">
+            <img class="card-img-top megan" />
             <div class="card-body">
-              <h5>ARCANE</h5>
+              <h5>M E G A N</h5>
             </div>
           </article>
         </div>

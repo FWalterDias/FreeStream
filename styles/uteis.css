@@ -1,0 +1,27 @@
+.container-title{
+    grid-area: title;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.container-title button{
+    position: absolute;
+    left: 120px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #1B1232;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+}
+.container-title h1{
+    font-size: 4rem;
+}
+.container-title button:hover{
+    background-color: white;
+    color: #1B1232;
+}

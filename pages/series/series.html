@@ -13,14 +13,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../../styles/home.css" />
-    <link rel="stylesheet" href="./cinema.css" />
+    <link rel="stylesheet" href="./series.css" />
   </head>
 
   <body>
     <div class="container-global">
       <header class="container-fluid header">
         <div class="logo-area">
-          <a href="../main/main.html" onclick="voltar()">MyTicket.com</a>
+          <a href="#" onclick="voltar()">FreeStreaming.com</a>
           <figure>
             <img src="../../Assets/Imgs/logo.png" alt="" />
           </figure>
@@ -28,43 +28,50 @@
 
         <nav>
           <ul class="nav-items">
-            <li><a class="link-nav-items" href="">Login</a></li>
-            <li><a class="link-nav-items" href="">Sing up</a></li>
-            <li><a class="link-nav-items" href="">Fale Conosco</a></li>
+            <li><a class="link-nav-items" href="" data-toggle="modal" data-target="#modalLogin">Login</a></li>
+            <li><a class="link-nav-items" href="" data-toggle="modal" data-target="#modalSingUp">Sing up</a></li>
+            <li><a class="link-nav-items" href="" data-toggle="modal" data-target="#modalFaleConosco">Fale Conosco</a></li>
           </ul>
         </nav>
       </header>
 
       <main>
-        <div class="container-fluid container-cinema">
-          <article class="card card-filme">
-            <img
-              class="card-img-top avatar"/>
+        <div class="container-fluid container-series">
+          <div class="container-title">
+            <a href="../../pages/main/main.html">
+              <button>Back</button>
+            </a>
+            <h1>Séries</h1>
+          </div>
+
+          <article class="card card-series">
+            <img class="card-img-top bg-wandinha" />
             <div class="card-body">
-              <h5>AVATAR 2</h5>
+              <h5>WANDINHA</h5>
             </div>
           </article>
 
-          <article class="card card-filme">
-            <img class="card-img-top sing2">
+          <article class="card card-series">
+            <img class="card-img-top bg-queensG" />
             <div class="card-body">
-              <h5>SING 2</h5>
+              <h5>THE QUEEN'S GAMBIT</h5>
             </div>
           </article>
 
-          <article class="card card-filme">
-            <img class="card-img-top megan">
+          <article class="card card-series">
+            <img class="card-img-top bg-arcane" />
             <div class="card-body">
-              <h5>M E G A N</h5>
+              <h5>ARCANE</h5>
             </div>
           </article>
-
         </div>
       </main>
     </div>
+
+    <?PHP include('../modal/modal.php')?>
   </body>
 
-  <script src="./Script/script.js"></script>
+  <script src="../../Script/script.js"></script>
   <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

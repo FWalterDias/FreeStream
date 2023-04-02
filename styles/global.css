@@ -31,6 +31,30 @@ a:hover {
   color: #f5d556;
   text-decoration: none;
 }
-h5{
+h1, h5{
   margin: 0;
+}
+article{
+  cursor: pointer;
+  padding: 2px;
+  transition: background .3s ease-in;
+}
+article:hover{
+  background-color: white;
+}
+article:hover .card-body h5{
+  color: black;
+}
+@keyframes cards {
+  0%{
+      transform: scale(0.1);
+      opacity: 0;
+  }
+  60%{
+      transform: scale(1.1);
+      opacity: 1;
+  }
+  100%{
+      transform: scale(1);
+  }
 }
