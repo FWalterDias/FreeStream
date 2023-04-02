@@ -41,6 +41,7 @@ article{
 }
 article:hover{
   background-color: white;
+  scale: 1.1;
 }
 article:hover .card-body h5{
   color: black;

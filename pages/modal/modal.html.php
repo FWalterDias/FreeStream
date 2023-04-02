@@ -1,11 +1,16 @@
 <html>
+
+<head>
+    <link rel="stylesheet" href="./modal.css" />
+</head>
+
 <body>
     <!-- Tela Sing up -->
     <div class="modal fade" tabindex="-1" role="dialog" id="modalSingUp">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <img src="../Project-myTicket/Assets/Imgs/logo.png" alt="logo" width="250px">
+                    <img src="../Project-myTicket/Assets/imgs/logo2.png" alt="logo" width="250px">
                     <button type="button" class="modal-close-cadastro" data-dismiss="modal" aria-label="Fechar">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -110,4 +115,5 @@
         </div>
     </div>
 </body>
+
 </html>
