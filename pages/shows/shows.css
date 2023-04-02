@@ -1,0 +1,57 @@
+.container-shows {
+  display: grid;
+  grid-template-areas:
+    "card1 card2 card3"
+    "card4 card5 card6";
+  background-color: var(--bg-shows);
+  height: 100%;
+  padding: 5% 10%;
+  text-align: center;
+  align-content: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+article{
+    cursor: pointer;
+    padding: 2px;
+    transition: background .3s ease-in;
+}
+article:hover{
+    background-color: white;
+}
+article:hover .card-body h5{
+    color: black;
+}
+.card-artista{
+    width: 19rem;
+    background-color: black;
+}
+.card-artista img{
+    height: 230px;
+}
+.card-body{
+    font-family: var(--josefin);
+    padding: 1rem;
+}
+.card-body h5{
+    font-size: 2rem;
+}
+/* Mudando a cor dos nomes */
+.billie{
+    color: #F6CF41;
+}
+.beyonce{
+    color: #9C5454;
+}
+.rosalia{
+    color: #890000;
+}
+.rbd{
+    color: #da0d0d;
+}
+.blackpink{
+    color: lightpink;
+}
+.taylor{
+    color: darkgray;
+}

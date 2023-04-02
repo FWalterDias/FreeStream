@@ -1,0 +1,49 @@
+header {
+    grid-area: header;
+    z-index: 1;
+    min-height: 100px;
+    max-height: 100px;
+  }
+  main {
+    grid-area: main;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "logo nav nav";
+    background-color: rgb(82, 82, 82);
+  }
+  .logo-area {
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo-area figure img {
+    width: 120px;
+  }
+  .logo-area a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+  }
+  nav {
+    grid-area: nav;
+    margin-right: 10%;
+  }
+  .nav-items {
+    display: flex;
+    height: 100%;
+    gap: 10%;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  .link-nav-items {
+    text-decoration: none;
+    font-size: 40px;
+    color: #ffff;
+  }

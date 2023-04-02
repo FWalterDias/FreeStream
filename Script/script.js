@@ -39,3 +39,4 @@ const modalSingUp = document.querySelector('#modalSingUp');
 //     modalSingUp.style.display = 'none';
 //     modalLogin.style.display = 'none';
 // }
+

@@ -1,0 +1,38 @@
+.container-main{
+  display: grid;
+  grid-template-areas:
+    "shows cinema teatro"
+    "shows cinema teatro"
+    "shows cinema teatro";
+  height: 100%;
+}
+.shows{
+    grid-area: shows;
+    background-color: var(--bg-shows); 
+}
+.cinema{
+    grid-area: cinema;
+   background-color: var(--bg-cinema);
+}
+.teatro{
+    grid-area: teatro;
+   background-color: var(--bg-series);
+}
+.shows, .cinema, .teatro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-main{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    transition: font-size .3s ease-in-out;
+    text-align: center;
+    font-style: italic;
+}
+.link-main:hover{
+    font-size: 56px;
+    color: #FFFF;
+    text-decoration: underline;
+}
