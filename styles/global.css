@@ -37,11 +37,11 @@ h1, h5{
 article{
   cursor: pointer;
   padding: 2px;
-  transition: background .3s ease-in;
+  transition: all .3s ease-in;
 }
 article:hover{
   background-color: white;
-  scale: 1.1;
+  scale: 1.05;
 }
 article:hover .card-body h5{
   color: black;
