@@ -1,9 +1,6 @@
-/* .modal-img{
-    width: 350px;
+.modal-header{
+    justify-content: center;
 }
-.modal-img img{
-    width: 100%;
-} */
 .modal-close-login {
     width: 30px;
     height: 30px;
@@ -13,6 +10,7 @@
     font-size: 1.5rem;
     position: relative;
     border-radius: 5px;
+    cursor: pointer;
 }
 .modal-close-cadastro {
     width: 30px;
@@ -25,6 +23,7 @@
     right: -90px;
     top: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .modal-close-login:hover, .modal-close-cadastro:hover{
     background-color: white;
@@ -39,6 +38,7 @@
     font-size: 1.5rem;
     color: white;
     font-family: 'Italianno', cursive;
+    cursor: pointer;
 }
 .input-login:hover, .input-singup:hover, .input-cadastro:hover{
     background-color: white;
