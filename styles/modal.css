@@ -1,19 +1,30 @@
-.modal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+dialog {
     width: 1500px;
     margin: 10% auto;
     padding: 20px;
 
     background-color: #EDEDED;
+
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 0 1em rgb(0, 0, 0 / .3);
+}
+
+dialog::backdrop{
+    backdrop-filter: blur(8px);
+}
+
+.dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .modal-tittle {
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
+    font-family: var(--josefin);
 }
 
 .modal-body {
@@ -26,7 +37,7 @@
     margin-bottom: 20px;
 }
 
-.modal button {
+.dialog button {
     all: unset;
 
     align-self: flex-end;
@@ -35,7 +46,7 @@
     height: 40px;
     border-radius: 10px;
 
-    background: url('../../Assets/Imgs/close-dark.svg') no-repeat center /cover;
+    background: url('../Assets/Imgs/close-dark.svg') no-repeat center /cover;
 
     cursor: pointer;           
 }
