@@ -3,6 +3,7 @@
 #  FreeStream
 Este é um projeto pessoal movido a inspirações pessoais. Ele se trata de um site que possui três sessões, Shows, Filmes e Series. A proposta ideal seria a de tentar democratizar o consumo de conteúdos que por ventura são pagos. No entanto, devido a extência de direitos autorais e em respeito aos mesmos, este prjeto limitou-se a mostrar o trailer livre desses conteúdos.
 
+### Disponível em: https://fwalterdias.github.io/FreeStream/
 
 ### Tecnologias Utilizadas
 <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer">
