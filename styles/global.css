@@ -19,9 +19,12 @@
   display: grid;
   grid-template-rows: 10% 90%;
   grid-template-areas:
-    "header header header"
-    "main main main";
+    "header"
+    "main";
   min-height: 100vh;
+}
+.container-fluid {
+  padding: 0;
 }
 a {
   text-decoration: none;

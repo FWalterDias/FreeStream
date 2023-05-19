@@ -1,4 +1,11 @@
-.container-series {
+body{
+  background-color: var(--bg-series);
+}
+.container-series{
+  display: flex;
+  flex-direction: column;
+}
+.container-series-items {
   display: grid;
   grid-template-areas:
     "title title title"
@@ -9,7 +16,7 @@
   gap: 20px;
   padding: 0 10%;
   text-align: center;
-  background-color: var(--bg-series);
+  margin-top: 100px;
 }
 .card-series {
   width: 25rem;

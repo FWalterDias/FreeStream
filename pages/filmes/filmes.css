@@ -1,38 +1,52 @@
+body {
+  background-color: var(--bg-cinema);
+}
+
 .container-cinema {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-cinema-items {
   display: grid;
   grid-template-areas:
-    "title title title"
     "card4 card5 card6";
-  height: 100%;
   align-content: center;
   justify-content: space-evenly;
   gap: 20px;
   padding: 0 10%;
   text-align: center;
-  background-color: var(--bg-cinema);
+  margin-top: 100px;
 }
+
 .card-filme {
   width: 25rem;
   background-color: black;
   animation: cards 1s ease-in;
 }
+
 .card-filme img {
   height: 500px;
 }
+
 .card-body {
   font-family: var(--josefin);
   padding: 1rem;
 }
+
 .card-body h5 {
   font-size: 2rem;
   color: white;
 }
+
 .megan {
   background: url(../../Assets/Imgs/filmes/ret_3.jpg) no-repeat center / cover;
 }
+
 .avatar {
   background: url(../../Assets/Imgs/filmes/ret_1.jpg) no-repeat center / cover;
 }
+
 .sing2 {
   background: url(../../Assets/Imgs/filmes/ret_2.jpg) no-repeat center / cover;
 }

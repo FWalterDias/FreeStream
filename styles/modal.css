@@ -1,60 +1,41 @@
-.modal-header{
-    justify-content: center;
+.modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1500px;
+    margin: 10% auto;
+    padding: 20px;
+
+    background-color: #EDEDED;
 }
-.modal-close-login {
-    width: 30px;
-    height: 30px;
-    border:none;
-    background-color: #1B1232;
-    color: white;
-    font-size: 1.5rem;
-    position: relative;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.modal-close-cadastro {
-    width: 30px;
-    height: 30px;
-    border:none;
-    background-color: #1B1232;
-    color: white;
-    font-size: 1.5rem;
-    position: relative;
-    right: -90px;
-    top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.modal-close-login:hover, .modal-close-cadastro:hover{
-    background-color: white;
-    color: #1B1232;
-    border: solid 2px #1B1232;
-}
-.input-login, .input-singup, .input-cadastro{
-    width: 100%;
-    border-radius: 20px;
-    background-color: rgb(30, 26, 38, .95);
+
+.modal-tittle {
+    font-size: 3rem;
+    font-weight: 700;
     text-align: center;
-    font-size: 1.5rem;
-    color: white;
-    font-family: 'Italianno', cursive;
-    cursor: pointer;
 }
-.input-login:hover, .input-singup:hover, .input-cadastro:hover{
-    background-color: white;
-    color: rgb(30, 26, 38, .95);
-    font-weight: bold;
-    border: 2px solid rgb(30, 26, 38, .95);
-}
-.input-login{
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 700px;
+
     margin-bottom: 20px;
 }
-.input-text{
-    font-family: 'Italiana';   
-    font-weight: 600;
-}
-.modal-body h2{
-    font-size: 1.5rem;
-    
-    color: black;
+
+.modal button {
+    all: unset;
+
+    align-self: flex-end;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+
+    background: url('../../Assets/Imgs/close-dark.svg') no-repeat center /cover;
+
+    cursor: pointer;           
 }
