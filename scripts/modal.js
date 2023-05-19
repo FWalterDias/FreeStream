@@ -70,8 +70,6 @@ const links = [{
 
 for (const card of cards) {
     card.addEventListener("click", () => {
-        console.log("clicou");
-
         for(const title of links){
             if(card.className.includes(title.id)){
                 modalTitle.textContent = title.tittle;
@@ -86,38 +84,3 @@ buttonCloseModal.addEventListener('click', (event)=>{
     event.stopPropagation();
     dialog.close();
 });
-
-dialog.addEventListener('blur', (event)=>{
-    event.stopPropagation();
-    dialog.close();
-});
-
-// function exibeModal() {
-//     const divModal = document.createElement('dialog');
-
-//     const button = document.createElement('button');
-
-//     const h1 = document.createElement('h1');
-//     h1.textContent = 'Titulo do filme';
-//     h1.classList.add('modal-artista');
-
-//     const divModalBody = document.createElement('div');
-//     divModalBody.classList.add('modal-body');
-
-//     const inframe = document.createElement('inframe');
-//     inframe.src = "https://www.youtube.com/embed/3MB3OK3Xnvs";
-//     inframe.style.width = '1200px';
-//     inframe.style.height = '100%';
-//     inframe.title = "YouTube video player";
-//     inframe.frameborder = '0';
-//     inframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-//     inframe.allowfullscreen = true;
-
-//     divModalBody.append(inframe)
-//     divModal.append(button, h1, divModalBody);
-//     main.append(divModal);
-
-//     divModal.showModal();
-// }
-
-console.log(srcInframe);

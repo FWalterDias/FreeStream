@@ -1,7 +1,6 @@
 header {
     grid-area: header;
-    z-index: 1;
-    min-height: 80px;
+    /* z-index: 1; */
   }
   main {
     grid-area: main;
